@@ -1,0 +1,152 @@
+.hero-image {
+    background-color: #1F2937;
+    padding: 15px 250px 50px 250px;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+/* header*/
+
+.header {
+    display: flex;
+    padding: 1rem 8rem 4rem;
+    align-items: center;
+}
+
+.links {
+    align-items: flex-end ;
+    margin-left: auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;  
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links ul li:hover {
+    background-color: rgb(48, 60, 87);
+}    
+
+
+/* hero main */
+
+.hero-main {
+    display: flex;
+    padding: 1rem 8rem 4rem;
+    align-items: center;
+    
+}   
+
+#hero-text {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+#hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#hero-text p {
+    font-size: 18px;
+}
+
+.button {
+    background-color: #233947; 
+    width: 100px;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.button:hover {
+    background-color: azure;
+    color: #1F2937;
+}
+
+#hero-image {  
+    margin-left: auto;
+    object-fit: contain;
+}
+
+/* Main area*/
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+#types {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.main-items {
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.tea-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tea-type img {
+    border: 4px solid #1F2937;
+    border-radius: 15px;  
+}
+
+.tea-type p {
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0 250px 25px;
+    margin: 100px 0;
+}
+
+.signup {
+    background-color: #3e4e69;
+    display: flex;
+    padding: 25px 100px;
+    margin: 10px 150px 50px;
+    border-radius: 10px;
+    align-items: center;
+    color: #f9faf8;
+    gap: 10rem;
+ 
+}    
+
+.signup h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #f9faf8;
+   
+}
